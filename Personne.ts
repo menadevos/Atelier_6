@@ -30,6 +30,7 @@ export class Personne {
         this.nom = nom;
     }
 
+    
     set setsexe(sexe: 'M' | 'F') {
         this.sexe = sexe;
     }

@@ -24,6 +24,7 @@ class Point {
  calculerDistance(p: Point): number {
  return Math.sqrt( (Math.pow((this.abs - p.abs),2))+(Math.pow((this.ord - p.ord),2)));
  }} 
+ 
  let p1= new Point (5,7);
  let p2= new Point (5,2);
  console.log(`le point p1 : (${p1.abscisse},${p1.ordonne})`);

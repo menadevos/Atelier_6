@@ -12,6 +12,7 @@ export class Adresse {
  get ruegetter():String{
     return this.rue;
  }
+ 
  get villegetter():String{
     return this.ville;
  }
